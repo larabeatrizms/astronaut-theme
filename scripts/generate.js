@@ -54,7 +54,7 @@ const transformSoft = (yamlContent, yamlObj) => {
 
 module.exports = async () => {
     const yamlFile = await readFile(
-        join(__dirname, '..', 'src', 'dracula.yml'),
+        join(__dirname, '..', 'src', 'astronaut.yml'),
         'utf-8'
     );
 
@@ -70,6 +70,6 @@ module.exports = async () => {
 
     return {
         base,
-        soft: transformSoft(yamlFile, base),
+        // soft: transformSoft(yamlFile, base),
     };
 };
