@@ -1,10 +1,10 @@
 {
-    "name": "theme-dracula",
-    "version": "2.22.1",
+    "name": "theme-astronaut",
+    "version": "1.0.0",
     "displayName": "Astronaut",
-    "homepage": "https://draculatheme.com/",
+    "homepage": "https://github.com/larabeatrizms/astronaut-theme",
     "description": "Official Astronaut Theme. A dark theme for many editors, shells, and more.",
-    "publisher": "dracula-theme",
+    "publisher": "astronaut-theme",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
@@ -14,22 +14,17 @@
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
-        "Derek P Sifford <dereksifford@gmail.com>"
+        "Lara Beatriz <laraamori.machado@gmail.com>"
     ],
     "contributors": [
-        "Krzysztof Wisznarewski",
-        "Daniel Ramos",
-        "Eric Jackson",
-        "Elliott Pogue",
-        "Ajit Singh",
-        "Teddy Bradford"
+        "lara Beatriz"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/dracula/visual-studio-code.git"
+        "url": "https://github.com/larabeatrizms/astronaut-theme"
     },
     "bugs": {
-        "url": "https://github.com/dracula/visual-studio-code/issues"
+        "url": "https://github.com/larabeatrizms/astronaut-theme/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -38,7 +33,7 @@
         "Themes"
     ],
     "keywords": [
-        "dracula",
+        "astronaut",
         "dark",
         "theme",
         "color-theme"
@@ -51,14 +46,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dracula",
+                "label": "Astronaut",
                 "uiTheme": "vs-dark",
-                "path": "./theme/dracula.json"
-            },
-            {
-                "label": "Dracula Soft",
-                "uiTheme": "vs-dark",
-                "path": "./theme/dracula-soft.json"
+                "path": "./theme/astronaut.json"
             }
         ]
     },
@@ -70,7 +60,7 @@
     },
     "__metadata": {
         "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Dracula Theme",
+        "publisherDisplayName": "Astronaut Theme",
         "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
     }
 }
