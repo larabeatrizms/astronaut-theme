@@ -1,17 +1,17 @@
 {
     "name": "theme-astronaut",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Astronaut",
     "homepage": "https://github.com/larabeatrizms/astronaut-theme",
     "description": "Official Astronaut Theme. A dark theme for many editors, shells, and more.",
-    "publisher": "astronaut-theme",
+    "publisher": "larabeatriz32",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
         "package": "vsce package -o ./bin/astronaut.vsix",
         "vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
+        "vsce-publish": "vsce publish -p xmhwxkrwwf4nxotsyvrulcqyceowntvl4mp6tlwsjiypsawn3ldq"
     },
     "maintainers": [
         "Lara Beatriz <laraamori.machado@gmail.com>"
@@ -59,8 +59,6 @@
         "vsce": "^1.74.0"
     },
     "__metadata": {
-        "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Astronaut Theme",
-        "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
+        "publisherDisplayName": "Astronaut Theme"
     }
 }
